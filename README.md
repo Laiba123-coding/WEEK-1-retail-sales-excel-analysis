@@ -1,224 +1,145 @@
-## WEEK-1-retail-sales-excel-analysis
-##  Project Objectives
+#  Week 1 - Retail Sales Excel Analysis
 
-- Understand the structure of a retail sales dataset.
-- Clean and format raw data.
-- Perform data quality validation.
-- Apply basic Excel functions and formulas.
-- Analyze sales and customer information.
-- Create category-based summaries.
-- Visualize results using charts.
-- Draw meaningful observations from the data.
+## Project Title
+
+**Week 1 - Retail Sales Excel Analysis**
 
 ---
 
-## Dataset Information
+## Project Objective
 
-The dataset contains **1,000 retail sales transactions** with the following fields:
-
-- Transaction ID
-- Date
-- Customer ID
-- Gender
-- Age
-- Product Category
-- Quantity
-- Price per Unit
-- Total Amount
+The objective of this project is to analyze a real-world retail sales dataset using Microsoft Excel. The project focuses on understanding the dataset, cleaning and formatting data, performing data quality checks, applying Excel formulas, analyzing sales trends, creating charts, and drawing meaningful business insights from the data.
 
 ---
 
-##  Tasks Completed
+## Tools Used
 
-### 1. Dataset Understanding
-- Examined dataset structure.
-- Identified data types.
-- Counted rows and columns.
-- Identified unique product categories.
-- Found minimum and maximum customer age.
+* Microsoft Excel
+* GitHub
 
 ---
 
-### 2. Data Cleaning & Formatting
-- Created a cleaned copy of the dataset.
-- Converted data into an Excel Table.
-- Formatted dates and currency fields.
-- Adjusted column widths.
-- Improved column readability.
-- Applied Freeze Panes.
+## Dataset Columns
+
+The dataset contains the following columns:
+
+* Transaction ID
+* Date
+* Customer ID
+* Gender
+* Age
+* Product Category
+* Quantity
+* Price per Unit
+* Total Amount
 
 ---
 
-### 3. Data Quality Check
-- Checked for blank cells.
-- Verified duplicate records.
-- Validated Quantity values.
-- Validated Price per Unit values.
-- Verified Total Amount using:
+## Work Completed
 
-```
-Quantity × Price per Unit
-```
+### Dataset Understanding
 
-- Added:
-  - Calculated Total
-  - Amount Check
+* Analyzed the dataset structure.
+* Identified data types.
+* Counted rows and columns.
+* Found unique product categories.
+* Determined minimum and maximum customer age.
 
----
+### Data Cleaning & Formatting
 
-### 4. Basic Data Analysis
+* Created a cleaned copy of the dataset.
+* Converted the data into an Excel Table.
+* Formatted date and currency columns.
+* Adjusted column widths.
+* Applied Freeze Panes.
+* Improved column readability.
 
-Performed statistical analysis using Excel formulas:
+### Data Quality Check
 
-- Total Sales
-- Average Sales
-- Minimum Sales
-- Maximum Sales
-- Total Quantity Sold
-- Average Customer Age
-- Youngest Customer
-- Oldest Customer
-- Total Transactions
-- Unique Product Categories
+* Checked for blank cells.
+* Checked for duplicate rows.
+* Validated Quantity values.
+* Validated Price per Unit values.
+* Verified Total Amount using:
 
-Excel functions used:
+  * Quantity × Price per Unit
+* Created Calculated Total and Amount Check columns.
 
-- SUM()
-- AVERAGE()
-- MIN()
-- MAX()
-- COUNT()
-- COUNTA()
+### Basic Analysis
 
----
+Calculated:
 
-### 5. Sorting & Filtering
+* Total Sales
+* Average Sales
+* Minimum Sales
+* Maximum Sales
+* Total Quantity Sold
+* Average Customer Age
+* Youngest Customer
+* Oldest Customer
+* Total Transactions
+* Unique Product Categories
 
-Applied Excel sorting and filtering to:
+### Sorting & Filtering
 
-- Find highest transaction amount
-- Find lowest transaction amount
-- Filter Clothing products
-- Filter Female customers
-- Filter Quantity > 2
-- Sort by Total Amount
-- Sort by Customer Age
+Performed sorting and filtering to:
 
-Screenshots of filtered and sorted results were included.
+* Identify highest and lowest transactions.
+* Filter Clothing products.
+* Filter Female customers.
+* Filter Quantity greater than 2.
+* Sort by Total Amount.
+* Sort by Customer Age.
 
----
-
-### 6. Category-Based Analysis
+### Category-Based Analysis
 
 Created summary tables for:
 
-- Total Sales by Product Category
-- Total Quantity Sold by Product Category
-- Total Sales by Gender
+* Sales by Product Category
+* Quantity Sold by Product Category
+* Sales by Gender
 
-Excel function used:
+### Charts
 
-- SUMIF()
+Created:
 
----
-
-### 7. Data Visualization
-
-Created the following charts:
-
-- 📊 Bar Chart – Total Sales by Product Category
-- 📈 Column Chart – Total Quantity Sold by Product Category
-- 🥧 Pie Chart – Total Sales by Gender
-
-Each chart includes:
-
-- Proper title
-- Labels
-- Clean formatting
-- Professional appearance
+* Bar Chart – Total Sales by Product Category
+* Column Chart – Total Quantity Sold by Product Category
+* Pie Chart – Total Sales by Gender
 
 ---
 
-### 8. Observations
+## Key Observations
 
-Generated data-driven observations including:
-
-- Highest sales category
-- Lowest sales category
-- Sales by gender
-- Total quantity sold
-- Average customer age
-- Highest transaction amount
+* Electronics generated the highest total sales.
+* Beauty generated the lowest total sales.
+* Female customers generated higher total sales than male customers.
+* The dataset contains 1,000 retail transactions across 3 product categories.
+* Data quality checks confirmed that there were no blank cells or duplicate rows, and all Total Amount values matched Quantity × Price per Unit.
 
 ---
 
-##  Tools Used
+## Repository Contents
 
-- Microsoft Excel
-- GitHub
+* Retail Sales Excel Analysis.xlsx
+* retail_sales_dataset.csv
+* README.md
+* Chart Screenshots
 
 ---
 
-##  Repository Structure
+## Author
 
-```
-week-1-retail-sales-excel-analysis/
-│
-├── Retail_Sales_Analysis.xlsx
-├── retail_sales_dataset.csv
-├── README.md
-└── Screenshots/
-    ├── Chart1.png
-    ├── Chart2.png
-    ├── Chart3.png
-   
-```
+**Laiba Arif**
 
+BS Artificial Intelligence Student
 
-
-##  Excel Features Used
-
-- Excel Tables
-- Cell Formatting
-- Sorting
-- Filtering
-- Freeze Panes
-- SUM
-- AVERAGE
-- MIN
-- MAX
-- COUNT
-- COUNTA
-- SUMIF
-- IF
-- Charts
-
-
-
-##  Learning Outcomes
-
-Through this project, I gained hands-on experience in:
-
-- Understanding real-world datasets
-- Data cleaning techniques
-- Data validation
-- Basic statistical analysis
-- Category-based aggregation
-- Excel visualization
-- Presenting analytical findings
-
-
-
-##  Author
-
-Laiba Arif
-
-BS Artificial Intelligence Student  
 Pak-Austria Fachhochschule Institute of Applied Sciences and Technology
 
+---
 
-
-##  Internship
+## Internship
 
 **LogicStack Data Analysis Internship**
-**Week 1 – Retail Sales Excel Analysis**
+
+**Week 1 Project**
